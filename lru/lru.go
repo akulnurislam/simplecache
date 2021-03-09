@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
+	cache "github.com/akulnurislam/simplecache"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/mitchellh/mapstructure"
-	cache "github.com/sahalazain/simplecache"
 )
 
 const schema = "lru"

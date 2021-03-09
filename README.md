@@ -9,7 +9,7 @@ Supported cache
 ## Quick Start
 
 Installation
-    $ go get github.com/sahalazain/simplecache
+    $ go get github.com/akulnurislam/simplecache
 
 
 ## Usage
@@ -36,10 +36,10 @@ Example:
 package main
 
 import (
-	cache "github.com/sahalazain/simplecache"
-	_ "github.com/sahalazain/simplecache/mem"
-	_ "github.com/sahalazain/simplecache/redis"
-	_ "github.com/sahalazain/simplecache/lru"
+	cache "github.com/akulnurislam/simplecache"
+	_ "github.com/akulnurislam/simplecache/mem"
+	_ "github.com/akulnurislam/simplecache/redis"
+	_ "github.com/akulnurislam/simplecache/lru"
 )
 
 func main() {

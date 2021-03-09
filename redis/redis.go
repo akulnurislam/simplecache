@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
+	cache "github.com/akulnurislam/simplecache"
 	redis "github.com/go-redis/redis/v8"
-	cache "github.com/sahalazain/simplecache"
 )
 
 const defaultNS = "redis"

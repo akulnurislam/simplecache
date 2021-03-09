@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
+	cache "github.com/akulnurislam/simplecache"
+	"github.com/akulnurislam/simplecache/lru"
+	_ "github.com/akulnurislam/simplecache/lru"
+	"github.com/akulnurislam/simplecache/mem"
+	_ "github.com/akulnurislam/simplecache/mem"
+	"github.com/akulnurislam/simplecache/redis"
+	_ "github.com/akulnurislam/simplecache/redis"
 	"github.com/alicebob/miniredis/v2"
-	cache "github.com/sahalazain/simplecache"
-	"github.com/sahalazain/simplecache/lru"
-	_ "github.com/sahalazain/simplecache/lru"
-	"github.com/sahalazain/simplecache/mem"
-	_ "github.com/sahalazain/simplecache/mem"
-	"github.com/sahalazain/simplecache/redis"
-	_ "github.com/sahalazain/simplecache/redis"
 	"github.com/stretchr/testify/assert"
 )
 

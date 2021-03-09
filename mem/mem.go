@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
+	cache "github.com/akulnurislam/simplecache"
 	"github.com/mitchellh/mapstructure"
-	cache "github.com/sahalazain/simplecache"
 )
 
 const schema = "mem"
